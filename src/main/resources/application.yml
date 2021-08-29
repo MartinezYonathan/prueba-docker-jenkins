@@ -5,11 +5,3 @@ spring:
 #Tomcat Embedded Server Configuration
 server: 
   port: 8881
-  servlet:
-    context-path: /prueba
- 
-#Eureka Configuration Properties  
-eureka: 
-  client:
-    serviceUrl:
-      defaultZone: http://147.182.214.195:8799/eureka
